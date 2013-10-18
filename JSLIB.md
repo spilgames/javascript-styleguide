@@ -31,11 +31,10 @@ SpilGames('spilgames.import', {
 
 ```javascript
 SpilGames(['ExampleModule'], function(Example) {
-        'use strict';
+    'use strict';
 
-        var arg = 'SpilGames';
+    var arg = 'SpilGames';
 
-        Example.publicMethod(arg);
-    }
+    Example.publicMethod(arg);
 });
 ```
