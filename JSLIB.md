@@ -30,12 +30,12 @@ SpilGames('spilgames.import', {
 # Writing a JSLib sandbox
 
 ```javascript
-SpilGames(['dep1', 'dep2'], function(Dep1, Dep2) {
+SpilGames(['ExampleModule'], function(Example) {
         'use strict';
 
         var arg = 'SpilGames';
 
-        Dep1.publicMethod(arg);
+        Example.publicMethod(arg);
     }
 });
 ```
